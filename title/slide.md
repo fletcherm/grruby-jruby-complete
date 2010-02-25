@@ -1,4 +1,5 @@
 !SLIDE center
+
 # Building a Ruby application with jruby-complete
 ### Matt Fletcher
 ### Atomic Object

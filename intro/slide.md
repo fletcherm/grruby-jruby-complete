@@ -23,7 +23,7 @@
 * control precisely what Ruby you're using (sort stability!)
 
 !SLIDE bullets incremental
-# contrained environment
+# constrained environment
 
 * servers not under your control
 * AIX, HPUX, Solaris, QNX, etc
