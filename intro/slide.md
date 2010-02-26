@@ -11,7 +11,7 @@
 
 # JRuby in a single jar file
 
-!SLIDE
+!SLIDE bullets
 # who cares? why?
 
 * control your Ruby runtime!
