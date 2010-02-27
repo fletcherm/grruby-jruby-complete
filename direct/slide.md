@@ -5,21 +5,23 @@
 
     $ java -jar jruby-complete-1.4.0.jar
 
-    $ java -jar jruby-complete-1.4.0.jar -e "puts 'Hello'"
-      Hello
+    $ java -jar jruby-complete-1.4.0.jar -e "puts 'Ahoy'"
+      Ahoy
 
 !SLIDE commandline
 
-    $ java -Xmx500m -Xss1024k -jar jruby-complete-1.4.0.jar -e "puts 'Hello'"
-      Hello
+    $ java -Xmx500m -Xss1024k \
+    $ -jar jruby-complete-1.4.0.jar -e "puts 'Ahoy'"
+      Ahoy
 
 !SLIDE commandline
 
 # irb
 
-    $ java -Xmx500m -Xss1024k -jar jruby-complete-1.4.0.jar -S jirb
-      irb(main):001:0> puts "Hello"
-      Hello
+    $ java -Xmx500m -Xss1024k \
+    $ -jar jruby-complete-1.4.0.jar -S jirb
+      irb(main):001:0> puts "Ahoy"
+      Ahoy
       => nil
 
 !SLIDE
@@ -28,7 +30,8 @@
 
     @@@ ruby
     JRUBY_COMPLETE = "jruby-complete-1.4.0.jar"
-    JRUBY = "java -Xmx500m -Xss1024k -jar #{JRUBY_COMPLETE}"
+    JRUBY = "java -Xmx500m -Xss1024k " \
+            "-jar #{JRUBY_COMPLETE}"
 
 !SLIDE
 
