@@ -1,2 +1,0 @@
-* what is jruby (ruby implementation that runs on the jvm)
-* what is jruby-complete (all of jruby built into a single jar)
